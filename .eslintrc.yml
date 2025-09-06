@@ -1,0 +1,14 @@
+extends:
+  - '@exsoinn/eslint-config-exsoinn'
+overrides:
+  - files:
+      - 'sst.config.ts'
+    rules:
+      '@typescript-eslint/triple-slash-reference': off
+  - files:
+      - 'packages/core/**/*.ts'
+    rules:
+      '@typescript-eslint/no-namespace': 'off'
+      '@typescript-eslint/prefer-namespace-keyword': 'off'
+      '@typescript-eslint/no-explicit-any': 'off'
+

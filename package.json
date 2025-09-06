@@ -1,0 +1,29 @@
+{
+  "name": "crm",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "AWS_PROFILE=default npx sst dev",
+    "deploy-prod": "AWS_PROFILE=default npx sst deploy --stage production"
+  },
+  "devDependencies": {
+    "@exsoinn/eslint-config-exsoinn": "1.0.1",
+    "@stylistic/eslint-plugin-ts": "4.4.1",
+    "@tsconfig/node22": "^22",
+    "eslint": "8.57.0",
+    "eslint-config-serverless-stack": "0.69.7",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-n": "15.7.0",
+    "eslint-plugin-promise": "6.6.0",
+    "typescript": "^5",
+    "typescript-eslint": "8.42.0"
+  },
+  "dependencies": {
+    "@exsoinn/aws-sdk-wrappers": "^2.1.1",
+    "@types/aws-lambda": "^8.10.152",
+    "sst": "^3"
+  }
+}

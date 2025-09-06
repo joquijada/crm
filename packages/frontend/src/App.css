@@ -1,0 +1,25 @@
+.App #crm-top-nav-bar {
+    background-color: #ffd47d !important;
+    color: #7972cb !important;
+}
+
+.App #crm-top-nav-bar .fw-bold {
+    color: #7972cb !important;
+}
+
+.App #crm-top-nav-bar img {
+    max-width: 90px;
+    margin-right: 10px;
+}
+
+.App #crm-top-nav-bar a span {
+    vertical-align: top;
+    height: 300px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.App #crm-top-nav-bar .nav-link {
+    color: #7972cb;
+    font-weight: 600;
+}
